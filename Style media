@@ -1,0 +1,26 @@
+.page-media .form-media {
+    max-width: 400px;
+}
+ 
+.page-media .form-media label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+ 
+.page-media .form-media input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+ 
+.page-media .form-media button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+ 
+.page-media .resultado {
+    margin-top: 16px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
