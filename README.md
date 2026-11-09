@@ -1,2 +1,47 @@
-# Aprova-o-Acad-mica
-Formulário de aprovação acadêmica
+<!DOCTYPE html>
+<html lang="pt-BR">
+ 
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Média Acadêmica</title>
+<link rel="stylesheet" href="./Style media">
+</head>
+ 
+<body>
+ 
+<main>
+ 
+<h1>Média acadêmica</h1>
+ 
+<form>
+ 
+<p>
+<label for="nome">Nome:</label>
+<input type="text" id="nome">
+</p>
+ 
+<p>
+<label for="nota1">Nota 1:</label>
+<input type="number" id="nota1" step="0.1">
+</p>
+ 
+<p>
+<label for="nota2">Nota 2:</label>
+<input type="number" id="nota2" step="0.1">
+</p>
+ 
+<button type="button" id="btn-calcular">Calcular</button>
+ 
+</form>
+ 
+<p id="resultado"></p>
+ 
+</main>
+ 
+<script src="./media.js"></script>
+ 
+</body>
+ 
+</html>
+ 
